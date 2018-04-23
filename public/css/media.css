@@ -1,0 +1,389 @@
+
+@media screen and (min-width: 323px) and (max-width: 1024px) {
+
+	html {
+		font-size: 8px;
+	}
+
+	.index-main-login,
+	.index-main-menu  {
+		display: none;
+	}
+
+	.mobile-menu {
+        display: block; 
+    }
+
+    .index-header-logo {
+    	width: 100%;
+    	text-align: center;
+    }
+
+	.mobile-checkbox {
+	    position: absolute;
+	    left: 5rem;
+	    top: 6rem;
+	    visibility: hidden;
+	}
+
+	.menu-dropdown {
+	    position: absolute;
+	    transition: .5s;
+	    opacity: 0;
+	    visibility: hidden;
+		width: 50%;
+		transition: 1s;
+		top: 0;
+		left: 0;
+		padding-left: 4rem;
+	    padding-top: 9rem;
+	    padding-bottom: 3rem;
+	    font-size: 2rem;
+	    background: rgba(47, 73, 109, 0.8);
+	    z-index: 1;
+	}
+
+	.menu-dropdown a {
+		font-size: 2.6rem;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.mobile-checkbox + .mobile-label:before {
+		position: absolute;
+		top: 4rem;
+	    left: 4rem;
+		content: "\f0c9";
+		font-family: "fontello";
+		color: #fff2f2;
+	    cursor: pointer;
+	    z-index: 2;
+	    font-size: 5rem;
+	}
+
+	.mobile-checkbox:checked ~ .mobile-label:before {
+		content: "\e800";
+		position: absolute;
+		font-family: "fontello";
+		font-size: 5rem;
+	}
+
+	.mobile-checkbox:checked + .mobile-label ~ .menu-dropdown {
+		transition: .5s;
+		position: absolute;
+	    visibility: visible;
+	    opacity: 1;
+	}
+
+	.menu-dropdown li {
+	    padding-top: 1.8rem;
+	    list-style: none;
+	    }
+
+	.menu-dropdown img {
+		margin-right: 1rem;
+	}
+
+	.index-header-content {
+		flex-direction: column;
+		align-items: center;
+	}
+    
+    .index-header-fundblock {
+        display: flex;
+         
+    }
+    
+    .index-header-fundblock-item {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .fundblock-item-sum {
+        font-size: 1.5rem;
+}
+
+	.index-header-textblock {
+		order: 2;
+		margin:0;
+	}
+
+	.index-header-img {
+		margin:0;
+		width: 35rem;
+		height: 35rem;
+	}
+	
+	.index-features-container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.index-features-item {
+		margin-top: 3rem;
+	}
+
+	.index-features-item img {
+		width:  15rem;
+	}
+
+	.index-features-item b {
+		font-size: 4rem;
+	}
+
+	.index-features-item p {
+		font-size: 2rem;
+	}
+
+	.index-features-item button {
+		padding: 2rem 8rem;
+	}
+
+	.index-info img {
+		width: 35rem;
+	}
+
+	.index-info .wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.index-info-container {
+		text-align: center;
+		width: 85%;
+	}
+
+	.index-info-container h2 {
+		font-size: 4rem;
+	}
+
+	.index-info-container p {
+		width: 100%;
+		font-size: 2.5rem;
+	}
+
+	.index-info-container button {
+		padding: 2rem 10rem;
+	}
+
+	.index-info2-container{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.index-info2 .wrapper h2 {
+		font-size: 4rem;
+	}
+
+	.index-info2 .wrapper b {
+		text-align: center;	
+	}
+
+	.index-info2 .wrapper p {
+		width: 95%;
+		font-size: 2rem;
+	}
+
+	.price-charts-container {
+		width: 100%;
+	}
+
+	.price-charts-item {
+		height: 10rem;
+		width: 9.7rem;
+	}
+
+	.price-charts-item img {
+		margin-top: 1rem;
+	}
+
+	.charts-name {
+		font-size: 2rem;
+    }
+
+	.charts-state {
+		font-size: 1.3rem;
+	}
+
+	.charts-change {
+		font-size: 1rem;
+	}
+    
+    .index-price-charts button {
+        margin: 2rem 0;
+        align-self: center;
+        padding: 2rem 10rem;
+    }
+    
+    
+/*    _________________________________________________________*/
+    
+    .footer .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-menu-btn {
+        padding: 2rem 10rem;
+    }
+    
+    .footer-menu-title {
+        margin-top: 1rem;
+    }
+    
+    .footer-text {
+        width: 98%;
+        margin-top: 3rem;
+    }
+    
+    .price-container .wrapper{
+        flex-wrap: wrap;
+    }
+    
+    .price-item {
+       max-width: 35rem;
+        margin: 2rem 0;
+    }
+    
+    .price-header-text {
+        text-align: center;
+    }
+    
+  /*    _________________________________________________________*/
+    
+    .calc-scroll-container {
+        width: 95%;
+    }
+    
+    .calc-item-btn {
+         padding: 2rem 10rem;
+    }
+    /*    _________________________________________________________*/
+    
+    .main-choise {
+        background: none;
+        font-size: 0;
+    }
+    
+    .main-choise img {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+    
+    .balance-container .wrapper {
+        flex-direction: column;
+    }
+    
+    .balance-empty-block {
+        width: 75%;
+        min-height: 35rem;
+        align-self: center;
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+    
+    .balance-right-block {
+        width: 75%;
+        align-self: center;
+        min-height: 35rem;
+    }
+    
+    .trade-container .wrapper,
+    .trade-form-row {
+        flex-wrap: wrap;
+    }
+    
+    .trade-form form {
+        width: 75%;
+    }
+    
+    .trade-form-title {
+       width: 75%;
+        align-self: center;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .trade-form-btn-container {
+        margin: 1rem 0;
+        width: 100%;
+       flex-direction: column;
+        align-items: center;
+    }
+    
+    .trade-form-btn-container button {
+        margin: 0;
+        width: 90%;
+        margin-top: 1rem;
+        padding: 1.5rem 3rem;
+    }
+    
+    .trade-form-row input {
+        width: 100%;
+        height: 4rem;
+        
+    }
+    
+    .trade-form-row {
+        height: 30%;
+    }
+    
+    .balance-info {
+        width: 100%;
+    }
+    
+    
+    /* __________________________________________________________ */
+    
+    .wallet-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .wallet-rub {
+        margin-top: 2rem;
+    }
+    
+    .wallet-et,
+    .wallet-rub {
+        width: 90%;
+    }
+    
+    .wallet-rub-row {
+        flex-direction: column;
+       
+    }
+    
+    .wallet-rub-row button {
+        width: 90%;
+        align-self: center;
+        height: 6rem;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+}
+    
+    
+    

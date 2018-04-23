@@ -1,0 +1,22 @@
+<svg width="33" height="33" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>stats</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-88 351)">
+<g id="stats">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(88 -351)" fill="#FCFCFC"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(93.5494 -342.604)" fill="#FCFCFC"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 33 1.88533L 17.2004 1.88533L 17.2004 0L 15.7929 0L 15.7929 1.88533L 0 1.88533L 0 26.7919L 10.4186 26.7919L 6.95694 32.1987L 8.12878 33L 12.1022 26.7986L 20.9314 26.7986L 24.9049 32.9933L 26.0767 32.192L 22.6151 26.7919L 33 26.7919L 33 1.88533ZM 31.6665 25.3442L 1.40755 25.3442L 1.40755 3.25893L 31.6665 3.25893L 31.6665 25.3442Z"/>
+<path id="path1_fill" d="M 9.54306 4.12752L 11.9339 11.009L 20.6284 3.05693L 20.1502 9.05632L 21.4837 9.19771L 22.1841 0.727199L 14.392 -2.05485e-07L 14.2506 1.38033L 19.7529 1.93246L 12.4929 8.54458L 10.1088 1.74393L 1.02763e-07 10.6454L 0.909184 11.7362L 9.54306 4.12752Z"/>
+</defs>
+</svg>
