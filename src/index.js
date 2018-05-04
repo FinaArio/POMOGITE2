@@ -8,6 +8,7 @@ import {syncHistoryWithStore} from 'react-router-redux'
 import {Router, Route, browserHistory} from 'react-router'
 import {Provider} from 'react-redux'
 
+
 import reducers from 'reducers'
 import Coin from 'containers/coin'
 import Lending from 'containers/lending'
@@ -20,7 +21,6 @@ import Store from 'containers/store'
 import Login from 'containers/login'
 import SignIp from 'containers/signIn'
 import SignUp from 'containers/sign_up'
-
 const store = createStore(reducers, composeWithDevTools(
     applyMiddleware(thunk)
 ))
@@ -33,7 +33,7 @@ const history = syncHistoryWithStore(browserHistory, store)
 
 ReactDOM.render(
     <Provider store={store}>
-        <Router history={history} >
+        <Router history={history}>
                 <Route path='/' component={Lending} />
                 <Route path='/trade/:id' component={Coin} />
                 <Route path='/fund' component={Price} />

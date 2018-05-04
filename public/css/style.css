@@ -1,3 +1,4 @@
+
 * {
 	padding: 0;
 	margin: 0;
@@ -11,6 +12,9 @@ html {
 
 .mobile-menu {
 	display: none;
+}
+.a{
+    text-decoration: none;
 }
 
 button1 {
@@ -27,10 +31,15 @@ button1 {
     cursor: pointer;
 }
 .button4 {
-    background-color: rgba(243, 243, 243, 0.116);
+    background-color: rgba(85, 84, 84, 0.103);
+    text-decoration: none;
     color: rgb(36, 45, 63);
     font-size: 15px;
-    border: 2px solid #ffffff44;
+    margin-top: 0.4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    border-radius: 0.4rem;
 }
 
 .wrapper {
@@ -46,7 +55,7 @@ button1 {
 }
 
 .header-overlay {
-	background: rgba(41, 78, 128, 0.9);
+	background: rgba(34, 72, 122, 0.89);
 	padding-bottom: 10rem;
 }
 
@@ -62,7 +71,7 @@ button1 {
 }
 
 .index-header-logo {
-	font-size: 5rem;
+	font-size: 4rem;
 	line-height: 5rem;
 }
 
@@ -82,14 +91,14 @@ button1 {
 	padding-bottom: 1rem;
 }
 .index-main-menu{
-    	background: rgba(136, 136, 133, 0.322);
+    	background: rgba(136, 136, 133, 0.315);
     display: flex;
 	align-items: center;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
 .index-main-login  {
-	background: rgba(136, 136, 133, 0.158);
+	background: rgba(136, 136, 133, 0.171);
     display: flex;
 	align-items: center;
 	padding-top: 1rem;
@@ -169,7 +178,7 @@ button1 {
 }
 
 .index-header-textblock h1 {
-	font-size: 5.2rem;
+	font-size: 4.0rem;
 	font-weight: 600;
 	text-align: center;
 }
@@ -198,8 +207,8 @@ button1 {
 
 .index-header-img {
 	margin-top: 17rem;
-	height: 45rem;
-	width: 45rem;
+	height: 42rem;
+	width: 42rem;
 }
 
 .index-features {
@@ -438,7 +447,8 @@ button1 {
 	outline: none;
 	border: none;
 	cursor: pointer;
-	border-radius: 0.1rem;
+    border-radius: 0.1rem;
+    text-decoration: none;
 }
 
 .footer {
@@ -1282,7 +1292,8 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 0 auto;
+  margin-right: 50px;
+  margin-left: 50px;
   background-color: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
   overflow: hidden;
@@ -1460,3 +1471,17 @@ tr:nth-child(even) {
 .colpb{
     color:rgba(25, 26, 27, 0.822);
 }
+.error{
+	border: 1px solid red;
+
+}
+
+    .flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap
+}
+
+
+
+
