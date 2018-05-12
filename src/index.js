@@ -8,7 +8,6 @@ import {syncHistoryWithStore} from 'react-router-redux'
 import {Router, Route, browserHistory} from 'react-router'
 import {Provider} from 'react-redux'
 
-
 import reducers from 'reducers'
 import Coin from 'containers/coin'
 import Lending from 'containers/lending'
@@ -45,7 +44,10 @@ ReactDOM.render(
                 <Route path='/login' component={Login} />
                 <Route path='/SignIp' component={SignIp} />
                 <Route path='/SignUp' component={SignUp} />
+
         </Router>
     </Provider>,
     document.getElementById('root')
 );
+
+
